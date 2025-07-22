@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: rgb(235, 69, 14,);
+}
+.p2{
+    height: 420px;
+    width: 340px;
+    background-color: linen;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.p2 .title2{
+    line-height: 80px;
+    background: rgba(235, 69, 14, 0.799);
+    border-radius: 5px 5px 0 0;
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.p2 form{
+    padding: 30px 20px 25px 20px;
+}
+.p2 form .row1{
+    height:45px;
+    margin-bottom: 50px;
+    position:relative;
+}
+.p2 form .row1 input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left:20px;
+    border-radius:5px;
+    border: 1px solid lightgrey;
+    font-size:16px;
+    transition: all 0.3s ease;
+}
+a{
+    color:rgba(235, 69, 14, 0.799);
+}
+button:hover{
+    background: rgba(239, 87, 36, 0.799);
+}
+form .row1 input:focus{
+    border-color: rgba(235, 69, 14, 0.799);
+    box-shadow: inset 0px 0px 2px 2px rgba(235, 69, 14, 0.799);
+}
+ button{
+    height: 55px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    background-color: rgba(235, 69, 14, 0.799);
+    transition: all 0.2s ease;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
